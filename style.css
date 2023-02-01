@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Neue', cursive;
+    font-weight: bold;
+    
+}
+body{
+    
+    background: rgb(0,0,0);
+    background: linear-gradient(5deg, rgba(0,0,0,1) , rgba(181,0,252,1)); 
+    height: 100vh;
+    
+
+}
+header{
+    text-align: center;
+    margin-top: 30px;
+   
+}
+
+.burger{
+    
+    width: 200px;
+    height: 150px;
+    box-shadow: 15px 15px 15px  1px ;
+    border-radius: 15px;
+    border: solid 2px;
+    
+    
+}
+.texto{
+    color: #fff;
+    
+}
+p{
+    margin: 10px;
+    padding-bottom: 15px;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    padding: 0 2px;
+}
+.contenido  { 
+    line-height: 1.2;
+    letter-spacing: 1;
+    text-align: justify;
+    margin: 20px 20px;
+    font-size: 16px;
+   
+  
+    
+  }  
+
+
+.botones{
+   text-align: center;
+  
+}
+.botones ul li{
+    list-style: none;
+    margin: 20px;
+    background: yellow;
+   max-width: 300px;
+    height: 30px;
+    margin: 20px auto;
+    border-radius: 5px;
+     
+}
+li:visited{
+    color: red;
+}
+
+
+
+.botones ul li a{
+    
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    position: relative;
+    text-align: center;
+    top:5px;
+
+
+}
+
+
+footer{
+    text-align: center;
+    
+   
+
+    
+   
+   
+}
+.pie{
+    color: #fff;
+
+    
+}
+
